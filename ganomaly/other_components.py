@@ -1,7 +1,7 @@
 from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.layers import GlobalAveragePooling2D
 from tensorflow.keras import Model
-from generator import Generator
+from .generator import Generator
 
 class OtherComponents():
 
