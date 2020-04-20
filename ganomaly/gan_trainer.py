@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras.layers import Layer, Input
 from tensorflow.keras import Model
-from generator import Generator
+from .generator import Generator
 
 class AdversarialLoss(Layer):
     # layer to implement feature matching for adversarial training
